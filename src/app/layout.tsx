@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="max-h-screen">
+      <body className="">
         <HeaderComponent />
         {children}
         <FooterComponent />
